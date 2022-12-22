@@ -10,16 +10,20 @@ body {
 }
 
 h2 {
-    font-size: 30px
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 h4 {
-    font-size: 20px
+    font-size: 18px;
+    font-weight: 800
 }
 
 .topbar {
     width: 100%;
-    height: 150px;
+    height: 100px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +32,7 @@ h4 {
 .topbar > a {
     color: white;
     margin: 100px;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Tangerine', cursive;
 }
 
@@ -45,8 +49,8 @@ h4 {
 }
 
 .menu-template {
-    width: 1600px;
-    height: 2500px;
+    width: 1200px;
+    height: 2000px;
     background-image: url('./images/oldpaper2.png');
     display: flex;
     justify-content: center;
@@ -57,7 +61,7 @@ h4 {
 
 .menuborder {
     width: 90%;
-    height: 2350px;
+    height: 1875px;
     border: solid rgb(103, 0, 0);
     display: flex;
     align-items: center;
@@ -65,29 +69,29 @@ h4 {
 }
 
 .appetizers > h1 {
-    font-size: 90px;
+    font-size: 70px;
     font-family: 'Tangerine', cursive;
 }
 
 .app-items {
     display: grid;
-    grid-template: 250px 250px / 350px 350px;
-    column-gap: 200px;
+    grid-template: 200px 200px / 350px 350px;
+    column-gap: 100px;
 }
 
 span {
     margin-left: 30px
 }
 
-.entree {
-    font-size: 50px;
+.entree > h1 {
+    font-size: 70px;
     font-family: 'Tangerine', cursive;
 }
 
 .entree-items {
     display: grid;
-    grid-template: 250px 250px 250px 250px / 350px 350px;
-    column-gap: 200px;
+    grid-template: 200px 200px 200px 200px / 350px 350px;
+    column-gap: 100px;
 }
 
 #item13 {
